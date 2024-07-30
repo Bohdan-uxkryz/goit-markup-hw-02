@@ -1,19 +1,19 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 .logo-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -40,6 +40,7 @@ body {
   color: #404bbf;
 }
 .contact-info {
+    font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -50,7 +51,7 @@ body {
   color: #404bbf;
 }
 .hero {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .hero-text {
   font-weight: 700;
@@ -59,10 +60,9 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  background: #2e2f42;
 }
 .custom-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -102,7 +102,7 @@ body {
 .team-header {
   font-weight: 500;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -119,6 +119,7 @@ body {
   color: #2e2f42;
 }
 .team-text {
+    font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -150,7 +151,7 @@ body {
   background-color: #2e2f42;
 }
 .logo-footer {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -159,7 +160,7 @@ body {
   color: #4d5ae5;
 }
 .logo-text-footer {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
@@ -169,6 +170,8 @@ body {
 }
 
 .footer-text p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
