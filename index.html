@@ -27,49 +27,48 @@
   <body>
     <!--Шапка сайту-->
     <header class="top-line">
-      <nav class="top-navigation">
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-color">Studio</span>
-        </a>
-
-        <ul class="navigation">
+      <a href="./index.html" class="logo"
+        >Web<span class="logo-text">Studio</span></a
+      >
+      <nav class="navigation">
+        <ul class="nav-list">
           <li class="menu-item">
-            <a class="menu-item" href="./index.html">Studio</a>
+            <a href="./index.html">Studio</a>
           </li>
-          <li class="menu-item"><a class="menu-item" href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li class="menu-item"><a href="">Portfolio</a></li>
+          <li class="menu-item"><a href="">Contacts</a></li>
         </ul>
       </nav>
-      <address class="adress">
-        <ul class="header-adress">
-          <li class="mail-phone">
+      <address class="contacts">
+        <ul class="contact-info-list">
+          <li class="contact-info-item">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="mail-phone">
+          <li class="contact-info-item">
             <a href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
-    <main class="hero-page">
+    <main>
       <!--section hero image-->
-      <section class="hero-title">
-        <h1 class="page-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-text">Effective Solutions for Your Business</h1>
+        <button class="custom-button" type="button">Order Service</button>
       </section>
       <!--section 1-->
       <section class="description">
-        <h2 class="section-title">Benefits</h2>
+        <h2 class="features-header">Our Advantages</h2>
         <ul class="section-list">
-          <li class="section-list-team">
-            <h3 class="title">Strategy</h3>
-            <p class="text">
+          <li class="section-list-item">
+            <h3 class="features-list">Strategy</h3>
+            <p class="features-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li class="section-list-team">
-            <h3 class="title">Punctuality</h3>
+          <li class="section-list-item">
+            <h3 class="features-list">Punctuality</h3>
             <p class="text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
@@ -77,22 +76,22 @@
           </li>
           <li class="section-list-team">
             <h3 class="title">Diligence</h3>
-            <p class="text">
+            <p class="features-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li class="section-list-team">
-            <h3 class="title">Technologies</h3>
-            <p class="text">
+          <li class="section-list-item">
+            <h3 class="features-list">Technologies</h3>
+            <p class="features-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <section class="section-team">
-        <h2 class="section-subtitle">Our Team</h2>
+      <section class="team-section">
+        <h2 class="team-header">Our Team</h2>
         <ul class="team-list">
           <li class="team-list-wrp">
             <img
@@ -100,10 +99,9 @@
               alt="Mark Guerrero photo"
               width="264"
               height="260"
-              class="team-info"
             />
-            <h3 class="team-name">Mark Guerrero</h3>
-            <p class="position">Product Designer</p>
+            <h3 class="team-list">Mark Guerrero</h3>
+            <p class="team-text">Product Designer</p>
           </li>
           <li class="team-list-wrp">
             <img
@@ -111,10 +109,9 @@
               alt="Tom Ford photo"
               width="264"
               height="260"
-              class="team-info"
             />
-            <h3 class="team-name">Tom Ford</h3>
-            <p class="position">Frontend Developer</p>
+            <h3 class="team-list">Tom Ford</h3>
+            <p class="team-text">Frontend Developer</p>
           </li>
           <li class="team-list-wrp">
             <img
@@ -122,10 +119,9 @@
               alt="Camila Garcia photo"
               width="264"
               height="260"
-              class="team-info"
             />
-            <h3 class="team-name">Camila Garcia</h3>
-            <p class="position">Marketing</p>
+            <h3 class="team-list">Camila Garcia</h3>
+            <p class="team-text">Marketing</p>
           </li>
           <li class="team-list-wrp">
             <img
@@ -133,34 +129,53 @@
               alt="Daniel Wilson photo"
               width="264"
               height="260"
-              class="team-info"
             />
-            <h3 class="team-name">Daniel Wilson</h3>
-            <p class="position">UI Designer</p>
+            <h3 class="team-list">Daniel Wilson</h3>
+            <p class="team-text">UI Designer</p>
           </li>
         </ul>
       </section>
       <!--section porfolio-->
       <section class="section-portfolio">
-        <h2 class="section-portfolio-subtitle">Our Portfolio</h2>
+        <h2 class="portfolio-header">Our Portfolio</h2>
         <ul class="list-first">
           <li class="project-cart">
-            <img src="./images/img-5.jpg" alt="Banking App" width="360" />
+            <img
+              src="./images/img-5.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
             <h3 class="portfolio-list">Banking App</h3>
             <p class="portfolio-text">App</p>
           </li>
           <li class="project-cart">
-            <img src="./images/img-6.jpg" alt="Cashless Payment" width="360" />
+            <img
+              src="./images/img-6.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
             <h3 class="portfolio-list">Cashless Payment</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
           <li class="project-cart">
-            <img src="./images/img-7.jpg" alt="Meditation App" width="360" />
+            <img
+              src="./images/img-7.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
+            />
             <h3 class="portfolio-list">Meditation App</h3>
             <p class="portfolio-text">App</p>
           </li>
           <li class="project-cart">
-            <img src="./images/img-8.jpg" alt="Taxi Service" width="360" />
+            <img
+              src="./images/img-8.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
             <h3 class="portfolio-list">Taxi Service</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
@@ -169,12 +184,18 @@
               src="./images/img-9.jpg"
               alt="Screen Illustrations"
               width="360"
+              height="300"
             />
             <h3 class="portfolio-list">Screen Illustrations</h3>
             <p class="portfolio-text">Design</p>
           </li>
           <li class="project-cart">
-            <img src="./images/img-10.jpg" alt="Online Courses" width="360" />
+            <img
+              src="./images/img-10.jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
             <h3 class="portfolio-list">Online Courses</h3>
             <p class="portfolio-text">Marketing</p>
           </li>
@@ -182,11 +203,11 @@
       </section>
     </main>
     <!--footer-->
-    <footer class="footer">
-      <a class="footer-logo" href="./index.html"
-        >Web<span class="footer-logo-span">Studio</span></a
+    <footer class="site-footer">
+      <a href="./index.html" class="logo-footer"
+        >Web<span class="logo-text-footer">Studio</span></a
       >
-      <p class="footer-text">
+      <p class="quote-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
