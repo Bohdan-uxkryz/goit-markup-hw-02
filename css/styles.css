@@ -22,7 +22,15 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  width: 261px;
+  height: 24px;
+}
 .menu-item {
   font-weight: 500;
   font-size: 16px;
@@ -37,15 +45,15 @@ body {
 .adress {
   font-style: normal;
 }
-.adress a:hover,
-.adress a:focus {
-  color: #404bbf;
-}
-.contact-info {
+.header-adress {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.mail-phone:hover .mail-phone:focus {
+  color: #404bbf;
 }
 .hero-page {
   background-color: #2e2f42;
